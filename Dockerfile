@@ -1,5 +1,5 @@
 FROM node:10-alpine
 WORKDIR /usr/src/app
-COPY . .
+COPY . ./
 RUN npm install
 CMD [ "node", "app.js" ]
